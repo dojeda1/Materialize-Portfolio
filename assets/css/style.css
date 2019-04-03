@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Montserrat+Alternates');
+
+/* font-family: 'Montserrat Alternates',
+sans-serif;
+font-family: 'Alegreya Sans SC',
+sans-serif; */
+
+.font1 {
+    font-family: 'Montserrat Alternates',
+        sans-serif;
+}
+
+.font2 {
+    font-family: 'Alegreya Sans SC',
+        sans-serif;
+
+}
+
 #side-nav,
 #side-modal {
     width: 100px;
@@ -13,6 +31,14 @@
     transform: translateX(0%) !important;
 }
 
+.logo-pic {
+    position: relative;
+    right: 25px;
+    height: 100px;
+}
+
+#para-pic {}
+
 #logo-side {
     width: 100%;
     padding: 20px;
@@ -27,7 +53,7 @@ nav {
     height: 60px;
 }
 
-.container {
+#test-cont {
     height: 2000px;
 }
 
@@ -44,6 +70,17 @@ nav {
     margin-left: 0px;
 }
 
+.parallax-container {
+    height: 250px;
+}
+
+.logo-pic {
+    position: relative;
+    right: 25px;
+    height: 100px;
+    display: none;
+}
+
 @media only screen and (min-width: 600px) {
     #top-nav {
         display: none;
@@ -55,5 +92,13 @@ nav {
 
     .main-container {
         margin-left: 100px;
+    }
+
+    .parallax-container {
+        height: 500px;
+    }
+
+    .logo-pic {
+        display: inline;
     }
 }
