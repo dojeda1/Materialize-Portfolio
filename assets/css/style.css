@@ -1,0 +1,59 @@
+#side-nav,
+#side-modal {
+    width: 100px;
+}
+
+#side-nav a,
+#side-modal a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#side-nav {
+    transform: translateX(0%) !important;
+}
+
+#logo-side {
+    width: 100%;
+    padding: 20px;
+}
+
+#logo-top {
+    height: 60px;
+    padding: 10px;
+}
+
+nav {
+    height: 60px;
+}
+
+.container {
+    height: 2000px;
+}
+
+#top-nav {
+    display: block;
+}
+
+#side-nav {
+    display: none;
+    transform: translateX(0%) !important;
+}
+
+.main-container {
+    margin-left: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+    #top-nav {
+        display: none;
+    }
+
+    #side-nav {
+        display: block;
+    }
+
+    .main-container {
+        margin-left: 100px;
+    }
+}
