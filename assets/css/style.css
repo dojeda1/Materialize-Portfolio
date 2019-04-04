@@ -5,6 +5,14 @@ sans-serif;
 font-family: 'Alegreya Sans SC',
 sans-serif; */
 
+/* my colors
+
+light green: #8dc63f
+middle green: #2bb673
+blue: #27aae1 */
+
+
+/* Portfolio fonts and colors */
 .font1 {
     font-family: 'Montserrat Alternates',
         sans-serif;
@@ -17,6 +25,32 @@ sans-serif; */
 
 
 }
+
+.dom-green1 {
+    background-color: #8dc63f
+}
+
+.dom-green2 {
+    background-color: #2bb673
+}
+
+.dom-blue {
+    background-color: #27aae1
+}
+
+.dom-green1-text {
+    color: #8dc63f
+}
+
+.dom-green2-text {
+    color: #2bb673
+}
+
+.dom-blue-text {
+    color: #27aae1
+}
+
+/* Navbar Styles */
 
 #side-nav,
 #side-modal {
@@ -33,22 +67,15 @@ sans-serif; */
     transform: translateX(0%) !important;
 }
 
-#message {
-    height: 200px;
-    border: 1px solid lightgrey;
-}
-
 .logo-pic {
     position: relative;
     right: 25px;
     height: 100px;
 }
 
-
-
 #logo-side {
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
 }
 
 #logo-top {
@@ -69,8 +96,34 @@ nav {
     transform: translateX(0%) !important;
 }
 
+#side-nav a:hover {
+    color: #8dc63f !important;
+}
+
+/* Logo link styles */
+.logo-link {
+    height: 60px;
+}
+
+.logo-link:hover {
+    background-color: #8dc63f;
+    background-blend-mode: color;
+}
+
+.pad-5 {
+    padding: 10px;
+}
+
+/* Contact Styles */
+#message {
+    height: 200px;
+    border: 1px solid lightgrey;
+}
+
+/* Media query changes */
 .main-container {
     margin-left: 0px;
+
 }
 
 .parallax-container {
@@ -87,7 +140,9 @@ nav {
 #para-pic {}
 
 @media only screen and (min-width: 600px) {
-    #top-nav {
+
+    #top-nav,
+    #top-nav-container {
         display: none;
     }
 
@@ -105,5 +160,9 @@ nav {
 
     .logo-pic {
         display: inline;
+    }
+
+    .logo-link {
+        height: 100px;
     }
 }
