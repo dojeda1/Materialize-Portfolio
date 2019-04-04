@@ -6,4 +6,6 @@
 
       $('.parallax').parallax();
 
+      $('.scrollspy').scrollSpy();
+
   });

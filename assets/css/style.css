@@ -75,7 +75,12 @@ blue: #27aae1 */
 
 #logo-side {
     width: 100%;
-    padding: 20px 20px 5px 20px;
+}
+
+#logo-side-a {
+    height: 60px;
+    margin: 30px 20px 10px 20px !important;
+    padding: 0px !important;
 }
 
 #logo-top {
@@ -96,8 +101,20 @@ nav {
     transform: translateX(0%) !important;
 }
 
-#side-nav a:hover {
+.table-of-contents a.active {
+    font-weight: 500;
+    padding-left: 18px;
+    border-right: 5px solid #8dc63f;
     color: #8dc63f !important;
+    border-left: none;
+}
+
+.table-of-contents a:hover {
+    font-weight: 500;
+    padding-left: 18px;
+    border-right: 5px solid #27aae1;
+    color: #27aae1 !important;
+    border-left: none;
 }
 
 /* Logo link styles */
