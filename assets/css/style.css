@@ -8,11 +8,13 @@ sans-serif; */
 .font1 {
     font-family: 'Montserrat Alternates',
         sans-serif;
+
 }
 
 .font2 {
     font-family: 'Alegreya Sans SC',
         sans-serif;
+
 
 }
 
@@ -31,13 +33,18 @@ sans-serif; */
     transform: translateX(0%) !important;
 }
 
+#message {
+    height: 200px;
+    border: 1px solid lightgrey;
+}
+
 .logo-pic {
     position: relative;
     right: 25px;
     height: 100px;
 }
 
-#para-pic {}
+
 
 #logo-side {
     width: 100%;
@@ -51,10 +58,6 @@ sans-serif; */
 
 nav {
     height: 60px;
-}
-
-#test-cont {
-    height: 2000px;
 }
 
 #top-nav {
@@ -81,6 +84,8 @@ nav {
     display: none;
 }
 
+#para-pic {}
+
 @media only screen and (min-width: 600px) {
     #top-nav {
         display: none;
@@ -91,7 +96,7 @@ nav {
     }
 
     .main-container {
-        margin-left: 100px;
+        margin-left: 99px;
     }
 
     .parallax-container {

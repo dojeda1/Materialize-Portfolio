@@ -30,18 +30,20 @@
 <body>
 
     <!-- TOP NAVBAR -->
-    <nav id="top-nav" class="nav-wrapper grey darken-4">
+    <div class="navbar-fixed">
+        <nav id="top-nav" class="nav-wrapper navbar-fixed grey darken-4">
 
-        <div class="container">
-            <a href="#!" class="sidenav-trigger left" data-target="side-modal">
-                <i class="material-icons">menu</i>
-            </a>
-            <a href="" class="brand-logo"><img src="assets/images/D_logo_final.jpg" id="logo-top"
-                    class="left valign-wrapper"></a>
+            <div class="container">
+                <a href="#!" class="sidenav-trigger left" data-target="side-modal">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="" class="brand-logo"><img src="assets/images/D_logo_final.jpg" id="logo-top"
+                        class="left valign-wrapper"></a>
 
 
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </div>
 
     <ul id="side-modal" class="sidenav light-green darken-1 center-align">
         <li><a href="" class="white-text">Portfolio</a></li>
@@ -52,13 +54,13 @@
 
 
     <!-- LEFT SIDEBAR	 -->
-    <ul id="side-nav" class="sidenav sidenav-fixed grey darken-4 center-align">
-        <li><a class="subheader">DO</a></li>
+    <ul id="side-nav" class="sidenav sidenav-fixed grey darken-4 center-align z-depth-0">
+        <!-- <li><a class="subheader">DO</a></li> -->
         <img id="logo-side" src="./assets/images/D_logo_final.jpg" alt="">
         <li><a href="" class="white-text">Portfolio</a></li>
         <li><a href="" class="white-text">About</a></li>
-        <li><a href="" class="white-text">Contact</a>
-        </li>
+        <li><a href="" class="white-text">Contact</a></li>
+        <li><a href="" class="white-text">Contact</a></li>
     </ul>
 
     <div class="main-container">
@@ -70,8 +72,8 @@
                     <div class="col s12 white-text">
                         <img class="logo-pic" src="./assets/images/d-logo.png">
                         <!-- <img class="logo-pic" src="./assets/images//d-logo-inverted.png"> -->
-                        <h2 class="white-text font2">DOMINIC OJEDA</h2>
-                        <p class="font1">Full Stack Web Developer</p>
+                        <h1 class="white-text font2">DOMINIC OJEDA</h1>
+                        <h5 class="font1">Full Stack Web Developer</h5>
                     </div>
                 </div>
             </div>
@@ -82,18 +84,76 @@
 
         </div>
 
-        <div id="test-cont" class="container">
 
-            <div class="row">
 
-                <div class="col s12"></div>
+        <div class="row grey darken-4 z-depth-1">
+
+            <div class="col s12 center-align">
+                <h4 class="white-text font1">Portfolio</h4>
             </div>
         </div>
 
-    </div>
 
-    <!-- All of our Scripts -->
-    <script src="./assets//javascript/script.js"></script>
+
+        <div class="row grey darken-4 z-depth-1">
+
+            <div class="col s12 center-align">
+                <h4 class="white-text font1">About</h4>
+            </div>
+        </div>
+
+
+
+        <div class="row grey darken-4 z-depth-1">
+
+            <div class="col s12 center-align">
+                <h4 class="white-text font1">Contact</h4>
+            </div>
+        </div>
+
+        <div class="row grey darken-4 z-depth-1">
+
+            <div class="col s12 center-align">
+                <h4 class="white-text font1">Resume</h4>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="col m10 offset-m1 s12">
+                <div class="row">
+                    <form class="col m8 offset-m2 s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text">
+                                <label for="name" class="font1">Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="form-input">
+                                <label for="email" class="font1">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message" class="font1">Message</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col m12">
+                                <p class="right-align"><button
+                                        class="btn small waves-effect waves-light light-green font2" type="button"
+                                        name="action">Send<i class="material-icons right">send</i></button></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- All of our Scripts -->
+        <script src="./assets//javascript/script.js"></script>
 
 
 </body>
