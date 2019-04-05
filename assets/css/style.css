@@ -13,6 +13,12 @@ blue: #27aae1 */
 
 
 /* Portfolio fonts and colors */
+
+body {
+    /* background-color: #f5f4f0; */
+    /* background-color: #fffef7; */
+}
+
 .font1 {
     font-family: 'Montserrat Alternates',
         sans-serif;
@@ -28,6 +34,10 @@ blue: #27aae1 */
 
 .dom-green1 {
     background-color: #8dc63f
+}
+
+.dom-green1-dark {
+    background-color: #5d832b;
 }
 
 .dom-green2 {
@@ -48,6 +58,43 @@ blue: #27aae1 */
 
 .dom-blue-text {
     color: #27aae1
+}
+
+.spacer {
+    height: 50px;
+}
+
+.spacer-large {
+    height: 100px;
+}
+
+p {
+    line-height: 150%;
+}
+
+.portfolio-btn:hover {
+    background-color: #212121 !important;
+    color: #8dc63f;
+}
+
+.portfolio-btn:focus {
+    background-color: #212121 !important;
+    color: #8dc63f;
+}
+
+.contact-btn:hover {
+    background-color: #212121 !important;
+    color: #27aae1;
+}
+
+.contact-btn:focus {
+    background-color: #212121 !important;
+    color: #27aae1;
+}
+
+.divider {
+    border-top: 2px solid grey;
+    margin-bottom: 20px;
 }
 
 /* Navbar Styles */
@@ -119,7 +166,8 @@ nav {
 
 /* Logo link styles */
 .logo-link {
-    height: 60px;
+    height: 40px;
+    margin: 25px;
 }
 
 .logo-link:hover {
@@ -129,6 +177,24 @@ nav {
 
 .pad-5 {
     padding: 10px;
+}
+
+/* Portfolio Styles */
+#portfolio img {
+    width: 100%;
+}
+
+#made-with-list li {
+    line-height: 150%;
+}
+
+#info-pics img {
+    width: 100%;
+}
+
+/* About Styles */
+.tool-pic {
+    width: 50px;
 }
 
 /* Contact Styles */
@@ -180,6 +246,6 @@ nav {
     }
 
     .logo-link {
-        height: 100px;
+        height: 60px;
     }
 }
