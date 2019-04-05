@@ -122,18 +122,20 @@
                         <div class="divider"></div>
 
                         <div class="col s12 m8">
-                            <h5 class="font1">Meal Planner</h5>
-                            <img src="./assets/images/meal-planner/meal-planner-mockup.png" alt="">
+                            <h5 id="p-title" class="font1">Meal Planner</h5>
+                            <img id="p-mockup" src="./assets/images/meal-planner/meal-planner-mockup.png" alt="">
 
                             <br>
                             <div class="row">
                                 <div class="col s12 left-align">
-                                    <a href="https://stephanfalcon.github.io/PlusUltraProject/" target="_blank"><button
+                                    <a id="p-visit-btn" href="https://stephanfalcon.github.io/PlusUltraProject/"
+                                        target="_blank"><button
                                             class="btn portfolio-btn waves-effect waves-light dom-green1 font2"
                                             type="button" name="action">Visit<i
                                                 class="material-icons right">public</i></button></a>
 
-                                    <a href="https://github.com/stephanfalcon/PlusUltraProject" target="_blank">
+                                    <a id="p-code-btn" href="https://github.com/stephanfalcon/PlusUltraProject"
+                                        target="_blank">
                                         <button class="btn portfolio-btn waves-effect waves-light dom-green1-dark font2"
                                             type="button" name="action">Code<i
                                                 class="material-icons right">code</i></button></a>
@@ -145,13 +147,14 @@
                         <div class="col s12 m4">
                             <div class="row">
                                 <h6 class="font1 dom-green1-text">- About the Project -</h6>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae architecto eos,
+                                <p id="p-about">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                                    architecto eos,
                                     corporis
                                     aspernatur ab distinctio debitis consequatur a delectus, sit doloremque excepturi
                                     perferendis neque laborum sequi quia porro obcaecati. Cupiditate!</p>
 
                                 <h6 class="font1 dom-green1-text">- Made With -</h6>
-                                <un id="made-with-list" class="grey-text">
+                                <un id="p-list" class="grey-text">
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
@@ -175,18 +178,18 @@
 
                     <div class="col s12 m4">
                         <div class="col s12">
-                            <div class="row"><img src="./assets/images/meal-planner/meal-planner-search.jpg"
-                                    class="z-depth-3"></div>
+                            <div class="row"><img id="p-img-1"
+                                    src="./assets/images/meal-planner/meal-planner-search.jpg" class="z-depth-3"></div>
                         </div>
 
                         <div class="col s12">
-                            <div class="row"><img src="./assets/images/meal-planner/meal-planner-fav.jpg"
+                            <div class="row"><img id="p-img-2" src="./assets/images/meal-planner/meal-planner-fav.jpg"
                                     class="z-depth-3"></div>
                         </div>
 
                     </div>
 
-                    <div class="col s12 m8"><img src="./assets/images/meal-planner/meal-planner-cal.jpg"
+                    <div class="col s12 m8"><img id="p-img-3" src="./assets/images/meal-planner/meal-planner-cal.jpg"
                             class="z-depth-3"></div>
                 </div>
 
@@ -203,24 +206,22 @@
                 <div class="divider"></div>
 
                 <div class="carousel center-align">
-                    <a class="carousel-item" href="#!"><img src="./assets/images/meal-planner/meal-planner-paint.png">
+
+                    <a class="carousel-item" data-project-id="mealPlanner"><img
+                            src="./assets/images/meal-planner/meal-planner-paint.png">
                         <h6 class="black-text font2">Meal Planner</h6>
                     </a>
-                    <a class="carousel-item" href="#!"><img src="./assets/images/wizard-words/wizard-words-paint.png">
+
+                    <a class="carousel-item" data-project-id="wizardWords"><img
+                            src="./assets/images/wizard-words/wizard-words-paint.png">
                         <h6 class="black-text font2">Wizard Words</h6>
                     </a>
-                    <a class="carousel-item" href="#!"><img src="./assets/images/meal-planner-paint.png">
+
+                    <a class="carousel-item" data-project-id="scifiRpg"><img
+                            src="./assets/images/scifi-rpg/scifi-rpg-paint.png">
                         <h6 class="black-text font2">Sci-fi RPG</h6>
                     </a>
-                    <a class="carousel-item" href="#!"><img src="./assets/images/meal-planner-paint.png">
-                        <h6 class="black-text font2">Sci-fi RPG</h6>
-                    </a>
-                    <a class="carousel-item" href="#!"><img src="./assets/images/meal-planner-paint.png">
-                        <h6 class="black-text font2">Sci-fi RPG</h6>
-                    </a>
-                    <a class="carousel-item" href="#!"><img src="./assets/images/meal-planner-paint.png">
-                        <h6 class="black-text font2">Sci-fi RPG</h6>
-                    </a>
+
                 </div>
 
             </div>
@@ -385,7 +386,7 @@
 
             </div>
         </div>
-        <!-- All of our Scripts -->
+        <!-- Scripts -->
         <script src="./assets//javascript/script.js"></script>
 
 
