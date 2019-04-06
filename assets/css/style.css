@@ -110,6 +110,11 @@ p {
     padding-right: 10px;
 }
 
+#side-modal {
+    background-image: url("../images/dom-gradient.jpg");
+    background-size: cover;
+}
+
 #side-nav {
     transform: translateX(0%) !important;
 }
@@ -188,8 +193,16 @@ nav {
     line-height: 150%;
 }
 
+#move {
+    padding-right: 10px;
+}
+
 #info-pics img {
     width: 100%;
+}
+
+.carousel {
+    height: 300px;
 }
 
 /* About Styles */
@@ -201,6 +214,10 @@ nav {
 #message {
     height: 200px;
     border: 1px solid lightgrey;
+}
+
+.contact-link:hover {
+    color: #27aae1 !important;
 }
 
 /* Media query changes */
@@ -247,5 +264,9 @@ nav {
 
     .logo-link {
         height: 60px;
+    }
+
+    #move {
+        padding-right: 18px;
     }
 }

@@ -10,7 +10,7 @@
 
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/images/D_logo_final.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/D_logo_final.png" type="image/x-icon">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -37,7 +37,7 @@
                 <a href="#!" class="sidenav-trigger left" data-target="side-modal">
                     <i class="material-icons">menu</i>
                 </a>
-                <a href="" class="brand-logo"><img src="assets/images/D_logo_final.jpg" id="logo-top"
+                <a href="" class="brand-logo"><img src="./assets/images/D_logo_final.png" id="logo-top"
                         class="left valign-wrapper"></a>
 
 
@@ -45,16 +45,18 @@
         </nav>
     </div>
 
-    <ul id="side-modal" class="sidenav dom-green1 center-align font1">
+    <!-- Modal side navbar -->
+
+    <ul id="side-modal" class="sidenav center-align font1">
         <li><a href="#portfolio" class="white-text">Portfolio</a></li>
         <li><a href="#about" class="white-text">About</a></li>
         <li><a href="#contact" class="white-text">Contact</a></li>
-        <li><a href="#" class="white-text">Resume</a></li>
+        <li><a href="./assets/files/test-resume.pdf" target="_blank" download class="white-text">Resume</a></li>
     </ul>
     <!-- End NavBar -->
 
 
-    <!-- LEFT SIDEBAR	 -->
+    <!-- LEFT MAIN SIDEBAR	 -->
     <ul id="side-nav" class="sidenav sidenav-fixed grey darken-4 center-align z-depth-0 font1">
         <li>
             <a id="logo-side-a" href=""><img id="logo-side" src="./assets/images/D_logo_final.jpg" alt=""></a>
@@ -63,7 +65,7 @@
             <li><a href="#portfolio" class="white-text">Portfolio</a></li>
             <li><a href="#about" class="white-text">About</a></li>
             <li><a href="#contact" class="white-text">Contact</a></li>
-            <li><a href="#" class="white-text">Resume</a></li>
+            <li><a href="./assets/files/test-resume.pdf" target="_blank" download class="white-text">Resume</a></li>
         </div>
     </ul>
 
@@ -75,7 +77,6 @@
                 <div class="row">
                     <div class="col s12 white-text">
                         <a href=""><img class="logo-pic" src="./assets/images/d-logo.png"></a>
-                        <!-- <img class="logo-pic" src="./assets/images//d-logo-inverted.png"> -->
                         <h1 class="white-text font2">DOMINIC OJEDA</h1>
                         <h5 class="font1">Full Stack Web Developer</h5>
                     </div>
@@ -97,8 +98,6 @@
                         class="logo-link"></a>
                 <a href="./assets/files/test-resume.pdf" target="_blank" download><img
                         src="./assets/images/resume-logo.png" alt="" class="logo-link"></a>
-
-                <div class="spacer-large"></div>
 
             </div>
         </div>
@@ -181,7 +180,7 @@
                 </div>
                 <div id="info-pics" class="row">
 
-                    <div class="col s12 m4">
+                    <div id="move" class="col s12 m4">
                         <div class="col s12">
                             <div class="row"><img id="p-img-1"
                                     src="./assets/images/meal-planner/meal-planner-search.jpg" class="z-depth-3"></div>
@@ -370,7 +369,7 @@
                     <div class="col m8 s12">
 
 
-                        <form>
+                        <form id="contact-form">
                             <div class="row">
                                 <div class="input-field col s12">
                                     <input id="name" type="text">
@@ -388,7 +387,8 @@
 
                             <div class="row">
                                 <div class="col m12">
-                                    <button class="btn contact-btn small waves-effect waves-light dom-blue font2 right"
+                                    <button id="send-btn"
+                                        class="btn contact-btn small waves-effect waves-light dom-blue font2 right"
                                         type="button" name="action">Send<i
                                             class="material-icons right">send</i></button>
                                 </div>
@@ -402,9 +402,15 @@
                                 <br>
                                 <p id="p-about">dominicojeda.coding@gmail.com</p>
                                 <br>
-                                <p>Linkedin</p>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/dominic-ojeda/" target="_blank"
+                                        class="contact-link grey-text">Linkedin</a>
+                                </p>
                                 <br>
-                                <p>Github</p>
+                                <p>
+                                    <a href="https://github.com/dojeda1" target="_blank"
+                                        class="contact-link grey-text">Github</a>
+                                </p>
                             </div>
 
                         </div>
