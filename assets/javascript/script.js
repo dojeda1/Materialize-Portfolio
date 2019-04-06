@@ -24,7 +24,7 @@ $(document).ready(function () {
         img3: "./assets/images/meal-planner/meal-planner-cal.jpg",
         visit: "https://stephanfalcon.github.io/PlusUltraProject/",
         code: "https://github.com/stephanfalcon/PlusUltraProject",
-        sum: "Cool summary",
+        sum: "Using the Spoonacular API, Meal Planner allows you to look up recipes with optional dietary restrictions and save them to your favorites. You can view recipe cards to see a meal's ingredients and instructions. From the Calendar page, you can choose any recipe from your favorites, add it to a meal period on your weekly calendar, and save the plan for later. Both the favorites and the weekly meal plan are stored using Firebase's realtime database.",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "Firebase", "Spoonacular API"]
     }
 
@@ -36,7 +36,7 @@ $(document).ready(function () {
         img3: "./assets/images/wizard-words/wizard-words-win.jpg",
         visit: "https://dojeda1.github.io/Word-Guess-Game/",
         code: "https://github.com/dojeda1/Word-Guess-Game",
-        sum: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ea odit architecto molestiae, laboriosam nam doloribus nihil eum quis eveniet earum! Ullam tempora tenetur amet a asperiores, laboriosam omnis perferendis!",
+        sum: "This version of the traditional Hangman game is fashioned after the wizarding world of Harry Potter. The game displays what letters you have previously guessed, how many guesses you have left, as well as your wins and losses. The design was inspired by the Marauder's Map and uses jQuery for a number of cool fade-in and fade-out animations.",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
         img3: "./assets/images/scifi-rpg/scifi-rpg-fight.jpg",
         visit: "https://dojeda1.github.io/Space-RPG-Game/",
         code: "https://github.com/dojeda1/Space-RPG-Game",
-        sum: "Cool summary",
+        sum: "Choose one of 4 classic Sci-fi characters to play as and try to defeat all of the remaining opponents. Each character has different health, strength, and leveling up stats and you must choose defenders in particular orders to obtain victory.",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
@@ -60,7 +60,7 @@ $(document).ready(function () {
         img3: "./assets/images/socrates/socrates-choices.jpg",
         visit: "https://dojeda1.github.io/Socrates-Game/",
         code: "https://github.com/dojeda1/Socrates-Game",
-        sum: "Cool summary",
+        sum: "This is a text based adventure game inspired by the ancient tale of when Socrates was sentenced to death by a jury of his fellow Athenians. Playing as the philosopher himself, you make branching choices powered by IF/ELSE functions in JavaScript that lead to alternate endings. The goal is to find the historical ending or simply explore alternate timelines. ",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
@@ -72,9 +72,21 @@ $(document).ready(function () {
         img3: "./assets/images/trivia-game/trivia-results.jpg",
         visit: "https://dojeda1.github.io/Socrates-Game/",
         code: "https://github.com/dojeda1/Socrates-Game",
-        sum: "Cool summary",
+        sum: "Test your knowledge of both the metric and imperial units of measurement. Each question is timed and will move onto the next if left unanswered. After each question, a fun GIF is briefly displayed according to whether or not you were correct. At the end of the game, the number of right, wrong, and unanswered responses is displayed along side your overall score. Your high scores are also shown at the bottom of the results page.",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
+
+    //   const placeholder = {
+    //       title: "Trivia Game",
+    //       mockup: "./assets/images/trivia-game/trivia-mockup.png",
+    //       img1: "./assets/images/trivia-game/trivia-start.jpg",
+    //       img2: "./assets/images/trivia-game/trivia-correct.jpg",
+    //       img3: "./assets/images/trivia-game/trivia-results.jpg",
+    //       visit: "https://dojeda1.github.io/Socrates-Game/",
+    //       code: "https://github.com/dojeda1/Socrates-Game",
+    //       sum: "Cool summary",
+    //       list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    //   }
 
     function showProject(object) {
 
