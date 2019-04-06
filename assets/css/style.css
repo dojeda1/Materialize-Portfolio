@@ -20,24 +20,6 @@ body {
     /* background-color: #212121; */
 }
 
-/* .indicators li {
-    /* background-color: #8dc63f !important; 
-}
-
-*/
-
-.carousel .indicators .indicator-item {
-    height: 8px;
-    width: 8px;
-    margin: 24px 4px;
-    background-color: #212121;
-    border-radius: 50%;
-}
-
-.carousel .indicators .indicator-item.active {
-    background-color: #8dc63f;
-}
-
 .font1 {
     font-family: 'Montserrat Alternates',
         sans-serif;
@@ -195,8 +177,7 @@ nav {
 }
 
 .logo-link:hover {
-    background-color: #8dc63f;
-    background-blend-mode: color;
+    /* background-color: #8dc63f; */
 }
 
 .pad-5 {
@@ -222,6 +203,18 @@ nav {
 
 .carousel {
     height: 300px;
+}
+
+.carousel .indicators .indicator-item {
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: #212121;
+    border-radius: 50%;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #8dc63f;
 }
 
 /* About Styles */

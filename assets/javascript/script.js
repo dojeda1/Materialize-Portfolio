@@ -31,7 +31,7 @@ $(document).ready(function () {
     const wizardWords = {
         title: "Wizard Words",
         mockup: "./assets/images/wizard-words/wizard-words-mockup.png",
-        img1: "./assets/images/wizard-words/wizard-words-playing.jpg",
+        img1: "./assets/images/wizard-words/wizard-words-guess.jpg",
         img2: "./assets/images/wizard-words/wizard-words-lose.jpg",
         img3: "./assets/images/wizard-words/wizard-words-win.jpg",
         visit: "https://dojeda1.github.io/Word-Guess-Game/",
