@@ -79,6 +79,28 @@ $(document).ready(function () {
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
+    function showProject(object) {
+
+        $("#p-title").text(object.title);
+        $("#p-mockup").attr("src", object.mockup);
+        $("#p-visit-btn").attr("href", object.visit);
+        $("#p-code-btn").attr("href", object.code);
+        $("#p-about").text(object.sum);
+        $("#p-img-1").attr("src", object.img1);
+        $("#p-img-2").attr("src", object.img2);
+        $("#p-img-3").attr("src", object.img3);
+        $("#p-list").html("");
+
+        object.list.forEach(function (entry) {
+            console.log(entry);
+            var listItem = $("<li>");
+            listItem.text(entry);
+            $("#p-list").append(listItem);
+        });
+    }
+
+    showProject(mealPlanner);
+
     $(".carousel-item").on("click", function () {
 
         var projectId = {};
@@ -102,22 +124,7 @@ $(document).ready(function () {
             console.log(projectId)
         }
 
-        $("#p-title").text(projectId.title);
-        $("#p-mockup").attr("src", projectId.mockup);
-        $("#p-visit-btn").attr("href", projectId.visit);
-        $("#p-code-btn").attr("href", projectId.code);
-        $("#p-about").text(projectId.sum);
-        $("#p-img-1").attr("src", projectId.img1);
-        $("#p-img-2").attr("src", projectId.img2);
-        $("#p-img-3").attr("src", projectId.img3);
-        $("#p-list").html("");
-
-        projectId.list.forEach(function (entry) {
-            console.log(entry);
-            var listItem = $("<li>");
-            listItem.text(entry);
-            $("#p-list").append(listItem);
-        });
+        showProject(projectId);
 
     });
 
