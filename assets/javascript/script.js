@@ -55,6 +55,30 @@ $(document).ready(function () {
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
+    const socrates = {
+        title: "Trial of Socrates",
+        mockup: "./assets/images/socrates/socrates-mockup.png",
+        img1: "./assets/images/socrates/socrates-prompt.jpg",
+        img2: "./assets/images/socrates/socrates-results.jpg",
+        img3: "./assets/images/socrates/socrates-choices.jpg",
+        visit: "https://dojeda1.github.io/Socrates-Game/",
+        code: "https://github.com/dojeda1/Socrates-Game",
+        sum: "Cool summary",
+        list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    }
+
+    const trivia = {
+        title: "Trivia Game",
+        mockup: "./assets/images/trivia-game/trivia-mockup.png",
+        img1: "./assets/images/trivia-game/trivia-start.jpg",
+        img2: "./assets/images/trivia-game/trivia-correct.jpg",
+        img3: "./assets/images/trivia-game/trivia-results.jpg",
+        visit: "https://dojeda1.github.io/Socrates-Game/",
+        code: "https://github.com/dojeda1/Socrates-Game",
+        sum: "Cool summary",
+        list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    }
+
     $(".carousel-item").on("click", function () {
 
         var projectId = {};
@@ -69,6 +93,12 @@ $(document).ready(function () {
             console.log(projectId)
         } else if (check === "scifiRpg") {
             projectId = scifiRpg;
+            console.log(projectId)
+        } else if (check === "socrates") {
+            projectId = socrates;
+            console.log(projectId)
+        } else if (check === "trivia") {
+            projectId = trivia;
             console.log(projectId)
         }
 
