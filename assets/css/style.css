@@ -17,6 +17,25 @@ blue: #27aae1 */
 body {
     /* background-color: #f5f4f0; */
     /* background-color: #fffef7; */
+    /* background-color: #212121; */
+}
+
+/* .indicators li {
+    /* background-color: #8dc63f !important; 
+}
+
+*/
+
+.carousel .indicators .indicator-item {
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: #212121;
+    border-radius: 50%;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #8dc63f;
 }
 
 .font1 {

@@ -10,10 +10,7 @@ $(document).ready(function () {
         scrollOffset: 100
     });
 
-    $('.carousel').carousel();
-
-    $('.carousel.carousel-slider').carousel({
-        fullWidth: true,
+    $('.carousel').carousel({
         indicators: true
     });
 
@@ -39,7 +36,7 @@ $(document).ready(function () {
         img3: "./assets/images/wizard-words/wizard-words-win.jpg",
         visit: "https://dojeda1.github.io/Word-Guess-Game/",
         code: "https://github.com/dojeda1/Word-Guess-Game",
-        sum: "Cool summary",
+        sum: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ea odit architecto molestiae, laboriosam nam doloribus nihil eum quis eveniet earum! Ullam tempora tenetur amet a asperiores, laboriosam omnis perferendis!",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
