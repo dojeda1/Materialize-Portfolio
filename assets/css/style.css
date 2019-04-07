@@ -173,12 +173,13 @@ nav {
 /* Logo link styles */
 .logo-link {
     height: 40px;
-    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.logo-link:hover {
-    /* background-color: #8dc63f; */
-}
+.logo-link:hover {}
+
+
 
 .pad-5 {
     padding: 10px;
@@ -239,7 +240,7 @@ nav {
 }
 
 .parallax-container {
-    height: 250px;
+    height: 400px;
 }
 
 .logo-pic {
@@ -277,6 +278,8 @@ nav {
     .logo-link {
         height: 60px;
     }
+
+    .logo-link:hover {}
 
     #move {
         padding-right: 18px;
