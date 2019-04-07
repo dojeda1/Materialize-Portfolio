@@ -199,9 +199,7 @@ nav {
     padding-right: 10px;
 }
 
-#info-pics img {
-    width: 100%;
-}
+#info-pics img {}
 
 .carousel {
     height: 300px;
@@ -219,9 +217,19 @@ nav {
     background-color: #8dc63f;
 }
 
+.paint-pic:hover {
+    cursor: pointer;
+}
+
 /* About Styles */
 .tool-pic {
     width: 50px;
+}
+
+.int-logo {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 /* Contact Styles */

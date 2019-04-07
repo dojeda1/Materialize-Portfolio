@@ -13,6 +13,7 @@ $(document).ready(function () {
     $('.carousel').carousel({
         indicators: true
     });
+    ////
 
     //   Carousel Selection
 
@@ -87,7 +88,7 @@ $(document).ready(function () {
     //       sum: "Cool summary",
     //       list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     //   }
-
+    ////
     function showProject(object) {
 
         $("#p-title").text(object.title);
@@ -108,7 +109,9 @@ $(document).ready(function () {
         });
     }
 
+    // First project displayed when page is loaded
     showProject(mealPlanner);
+    ////
 
     $(".carousel-item").on("click", function () {
 
@@ -157,4 +160,5 @@ $(document).ready(function () {
         console.log(email);
         console.log(message);
     });
+    ////
 });
