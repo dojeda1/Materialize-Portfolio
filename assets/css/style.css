@@ -177,9 +177,10 @@ nav {
     margin-right: 25px;
 }
 
-.logo-link:hover {}
-
-
+.logo-link:hover {
+    position: relative;
+    bottom: 5px;
+}
 
 .pad-5 {
     padding: 10px;
@@ -278,8 +279,6 @@ nav {
     .logo-link {
         height: 60px;
     }
-
-    .logo-link:hover {}
 
     #move {
         padding-right: 18px;
