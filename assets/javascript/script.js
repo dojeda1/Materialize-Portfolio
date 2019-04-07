@@ -26,7 +26,7 @@ $(document).ready(function () {
         visit: "https://stephanfalcon.github.io/PlusUltraProject/",
         code: "https://github.com/stephanfalcon/PlusUltraProject",
         sum: "Using the Spoonacular API, Meal Planner allows you to look up recipes with optional dietary restrictions and save them to your favorites. You can view recipe cards to see a meal's ingredients and instructions. From the Calendar page, you can choose any recipe from your favorites, add it to a meal period on your weekly calendar, and save the plan for later. Both the favorites and the weekly meal plan are stored using Firebase's realtime database.",
-        list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "Firebase", "Spoonacular API"]
+        list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "Firebase", "Spoonacular API", "Heal Thru Words API"]
     }
 
     const wizardWords = {
@@ -71,8 +71,8 @@ $(document).ready(function () {
         img1: "./assets/images/trivia-game/trivia-start.jpg",
         img2: "./assets/images/trivia-game/trivia-correct.jpg",
         img3: "./assets/images/trivia-game/trivia-results.jpg",
-        visit: "https://dojeda1.github.io/Socrates-Game/",
-        code: "https://github.com/dojeda1/Socrates-Game",
+        visit: "https://dojeda1.github.io/TriviaGame/",
+        code: "https://github.com/dojeda1/TriviaGame",
         sum: "Test your knowledge of both the metric and imperial units of measurement. Each question is timed and will move onto the next if left unanswered. After each question, a fun GIF is briefly displayed according to whether or not you were correct. At the end of the game, the number of right, wrong, and unanswered responses is displayed along side your overall score. Your high scores are also shown at the bottom of the results page.",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
