@@ -65,6 +65,7 @@
             <li><a href="#portfolio" class="white-text">Portfolio</a></li>
             <li><a href="#about" class="white-text">About</a></li>
             <li><a href="#contact" class="white-text">Contact</a></li>
+
             <li><a href="./assets/files/test-resume.pdf" target="_blank" class="white-text">Resume</a></li>
         </div>
     </ul>
@@ -332,7 +333,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col m6 l3 center-align">
+                        <div class="col s6 m6 l3 center-align">
                             <img class="int-logo" src="./assets/images/tree-logo.png" alt="">
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore, cupclassitate eius
@@ -340,7 +341,7 @@
                                 molestias, nam est quo exercitationem rem iste, illo commodi eos perspiciatis
                                 incclassunt.</p>
                         </div>
-                        <div class="col m6 l3  center-align">
+                        <div class="col s6 m6 l3  center-align">
                             <img class="int-logo" src="./assets/images/space-logo.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore, cupclassitate eius
                                 temporibus
@@ -349,7 +350,7 @@
                         </div>
 
 
-                        <div class="col m6 l3 center-align">
+                        <div class="col s6 m6 l3 center-align">
                             <img class="int-logo" src="./assets/images/art-logo.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore, cupclassitate eius
                                 temporibus
@@ -358,7 +359,7 @@
                         </div>
 
 
-                        <div class="col m6 l3 center-align">
+                        <div class="col s6 m6 l3 center-align">
                             <img class="int-logo" src="./assets/images/game-logo.png" alt="">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum labore, cupiditate eius
                                 temporibus
@@ -373,88 +374,116 @@
                     <div class="spacer"></div>
                 </div>
             </div>
-            <!-- Contact Section -->
-            <div id="contact" class="scrollspy">
-                <div class="row grey darken-4 z-depth-1">
+        </div>
+        <!-- Contact Section -->
+        <div id="contact" class="scrollspy">
+            <div class="row grey darken-4 z-depth-1">
 
-                    <div class="col s12 center-align">
-                        <h4 class="dom-blue-text font1">Contact</h4>
-                    </div>
-                </div>
-
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col s12">
-                            <h5 class="dom-blue-text font2">Send me a message</h5>
-
-                            <div class="divider"></div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col m8 s12">
-
-
-                            <form id="contact-form">
-                                <div class="row">
-                                    <div class="input-field col s12">
-                                        <input id="name" type="text">
-                                        <label for="name" class="font1">Name</label>
-                                    </div>
-                                    <div class="input-field col s12">
-                                        <input id="email" type="email" class="form-input">
-                                        <label for="email" class="font1">Email</label>
-                                    </div>
-                                    <div class="input-field col s12">
-                                        <textarea id="message" class="materialize-textarea"></textarea>
-                                        <label for="message" class="font1">Message</label>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col m12">
-                                        <button id="send-btn"
-                                            class="btn contact-btn small waves-effect waves-light dom-blue font2 right"
-                                            type="button" name="action">Send<i
-                                                class="material-icons right">send</i></button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="font1 dom-blue-text">- Contact info -</h6>
-                                    <br>
-                                    <p id="p-about">dominicojeda.coding@gmail.com</p>
-                                    <br>
-                                    <p>
-                                        <a href="https://www.linkedin.com/in/dominic-ojeda/" target="_blank"
-                                            class="contact-link grey-text">Linkedin</a>
-                                    </p>
-                                    <br>
-                                    <p>
-                                        <a href="https://github.com/dojeda1" target="_blank"
-                                            class="contact-link grey-text">Github</a>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="spacer-large"></div>
-
+                <div class="col s12 center-align">
+                    <h4 class="dom-blue-text font1">Contact</h4>
                 </div>
             </div>
-            <!-- Scripts -->
-            <script src="./assets//javascript/script.js"></script>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col s12">
+                        <h5 class="dom-blue-text font2">Send me a message</h5>
+
+                        <div class="divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col m8 s12">
+
+
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name" type="text">
+                                    <label for="name" class="font1">Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="form-input">
+                                    <label for="email" class="font1">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="message" class="materialize-textarea"></textarea>
+                                    <label for="message" class="font1">Message</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col m12">
+                                    <button id="send-btn"
+                                        class="btn contact-btn small waves-effect waves-light dom-blue font2 right"
+                                        type="button" name="action">Send<i
+                                            class="material-icons right">send</i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="row">
+                            <div class="col">
+                                <h6 class="font1 dom-blue-text">- Contact info -</h6>
+                                <br>
+                                <p id="p-about">dominicojeda.coding@gmail.com</p>
+                                <br>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/dominic-ojeda/" target="_blank"
+                                        class="contact-link grey-text">Linkedin</a>
+                                </p>
+                                <br>
+                                <p>
+                                    <a href="https://github.com/dojeda1" target="_blank"
+                                        class="contact-link grey-text">Github</a>
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="spacer-large"></div>
+            </div>
+        </div>
+
+        <footer class="page-footer grey darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="dom-blue-text">Footer Content</h5>
+                        <p class="dom-blue-text text-lighten-4">You can use rows and columns here to organize
+                            your
+                            footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="dom-blue-text">Links</h5>
+                        <ul>
+                            <li><a class="dom-blue-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="dom-blue-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="dom-blue-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="dom-blue-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container dom-blue-text">
+                    © 2014 Copyright Text
+                    <a class="dom-blue-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Scripts -->
+        <script src="./assets//javascript/script.js"></script>
 
 
 </body>
