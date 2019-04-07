@@ -112,28 +112,31 @@ $(document).ready(function () {
 
     $(".carousel-item").on("click", function () {
 
-        var projectId = {};
-        var check = $(this).attr("data-project-id");
-        console.log(check);
+        var projectId = $(this).attr("data-project-id");
+        console.log(projectId);
 
-        if (check === "mealPlanner") {
-            projectId = mealPlanner;
-            console.log(projectId)
-        } else if (check === "wizardWords") {
-            projectId = wizardWords;
-            console.log(projectId)
-        } else if (check === "scifiRpg") {
-            projectId = scifiRpg;
-            console.log(projectId)
-        } else if (check === "socrates") {
-            projectId = socrates;
-            console.log(projectId)
-        } else if (check === "trivia") {
-            projectId = trivia;
-            console.log(projectId)
-        }
+        switch (projectId) {
+            case "mealPlanner":
+                showProject(mealPlanner);
+                break;
 
-        showProject(projectId);
+            case "wizardWords":
+                showProject(wizardWords);
+                break;
+
+            case "scifiRpg":
+                showProject(scifiRpg);
+                break;
+
+            case "socrates":
+                showProject(socrates);
+                break;
+
+            case "trivia":
+                showProject(trivia);
+                break;
+
+        };
 
     });
 
