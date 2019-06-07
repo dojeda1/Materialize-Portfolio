@@ -394,18 +394,19 @@
                     <div class="col s12 m7 l8">
 
 
-                        <form id="contact-form">
+                        <form id="contact-form" action="https://formspree.io/dominicojeda.coding@gmail.com"
+                            method="POST">
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input id="name" type="text">
+                                    <input id="name" type="text" class="form-input" name="name">
                                     <label for="name" class="font1">Name</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input id="email" type="email" class="form-input">
+                                    <input id="email" type="email" class="form-input" name="_replyto">
                                     <label for="email" class="font1">Email</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <textarea id="message" class="materialize-textarea"></textarea>
+                                    <textarea id="message" class="materialize-textarea" name="message"></textarea>
                                     <label for="message" class="font1">Message</label>
                                 </div>
                             </div>
@@ -414,11 +415,12 @@
                                 <div class="col m12">
                                     <button id="send-btn"
                                         class="btn contact-btn small waves-effect waves-light dom-blue font2 right"
-                                        type="button" name="action">Send<i
+                                        type="submit" name="action" value="Send">Send<i
                                             class="material-icons right">send</i></button>
                                 </div>
                             </div>
                         </form>
+
                     </div>
                     <div class="col s12 m5 l4">
                         <div class="row">
