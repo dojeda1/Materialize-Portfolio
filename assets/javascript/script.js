@@ -145,20 +145,20 @@ $(document).ready(function () {
 
     // Contact form WIP
 
-    $("#send-btn").on("click", function () {
+    // $("#send-btn").on("click", function () {
 
-        var name = $("#name").val();
-        var email = $("#email").val();
-        var message = $("#message").val();
+    //     var name = $("#name").val();
+    //     var email = $("#email").val();
+    //     var message = $("#message").val();
 
-        $("#name").val("");
-        $("#email").val("");
-        $("#message").val("");
+    //     $("#name").val("");
+    //     $("#email").val("");
+    //     $("#message").val("");
 
 
-        console.log(name);
-        console.log(email);
-        console.log(message);
-    });
+    //     console.log(name);
+    //     console.log(email);
+    //     console.log(message);
+    // });
     ////
 });
