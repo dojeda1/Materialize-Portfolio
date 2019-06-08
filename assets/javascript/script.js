@@ -77,6 +77,18 @@ $(document).ready(function () {
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
     }
 
+    const furButlr = {
+        title: "Fur Butlr",
+        mockup: "./assets/images/fur-butlr/fur-butlr-mockup.png",
+        img1: "./assets/images/fur-butlr/fur-butlr-results.jpg",
+        img2: "./assets/images/fur-butlr/fur-butlr-update.jpg",
+        img3: "./assets/images/fur-butlr/fur-butlr-profile.jpg",
+        visit: "https://sheltered-meadow-24497.herokuapp.com/",
+        code: "https://github.com/ApexPanda/Shenron",
+        sum: "A place for pet owners to meet each other and search for other pet services like groomers or sitters. You can make your own profile and even add your pets.",
+        list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "MySQL", "Node.js", "Sequelize"]
+    }
+
     //   const placeholder = {
     //       title: "Trivia Game",
     //       mockup: "./assets/images/trivia-game/trivia-mockup.png",
@@ -137,6 +149,10 @@ $(document).ready(function () {
 
             case "trivia":
                 showProject(trivia);
+                break;
+
+            case "furButlr":
+                showProject(furButlr);
                 break;
 
         };
