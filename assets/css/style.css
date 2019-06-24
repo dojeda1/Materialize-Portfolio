@@ -178,8 +178,10 @@ nav {
 }
 
 .logo-link:hover {
-    position: relative;
-    bottom: 5px;
+    animation: grow .3s;
+    animation-iteration-count: 1;
+    transform: translate(0px, -5px) scale(1.2);
+    
 }
 
 .pad-5 {
@@ -219,6 +221,9 @@ nav {
 
 .paint-pic:hover {
     cursor: pointer;
+    animation: grow .3s;
+    animation-iteration-count: 1;
+    transform: translate(0px, -5px) scale(1.2);
 }
 
 /* About Styles */
@@ -291,4 +296,9 @@ nav {
     #move {
         padding-right: 18px;
     }
+}
+
+@keyframes grow {
+    0%{ transform: translate(0px, 0px) scale(1.0)}
+    100%{ transform: translate(0px, -5px) scale(1.2)}
 }
