@@ -221,9 +221,9 @@ nav {
 
 .paint-pic:hover {
     cursor: pointer;
-    animation: grow .3s;
+    animation: rise .3s;
     animation-iteration-count: 1;
-    transform: translate(0px, -5px) scale(1.2);
+    transform: translate(0px, -5px);
 }
 
 /* About Styles */
@@ -305,4 +305,9 @@ nav {
 @keyframes grow {
     0%{ transform: translate(0px, 0px) scale(1.0)}
     100%{ transform: translate(0px, -5px) scale(1.2)}
+}
+
+@keyframes rise {
+    0%{ transform: translate(0px, 0px)}
+    100%{ transform: translate(0px, -5px)}
 }
