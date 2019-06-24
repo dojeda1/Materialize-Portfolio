@@ -13,6 +13,8 @@ $(document).ready(function () {
     $('.carousel').carousel({
         indicators: true
     });
+
+    $('.materialboxed').materialbox();
     ////
 
     //   Carousel Selection
