@@ -85,7 +85,7 @@ $(document).ready(function () {
         img1: "./assets/images/fur-butlr/fur-butlr-results.jpg",
         img2: "./assets/images/fur-butlr/fur-butlr-update.jpg",
         img3: "./assets/images/fur-butlr/fur-butlr-profile.jpg",
-        visit: "https://sheltered-meadow-24497.herokuapp.com/",
+        visit: "https://fur-butlr-app.herokuapp.com/",
         code: "https://github.com/ApexPanda/Shenron",
         sum: "A place where pet owners can meet each other and search for pet services like walkers, groomers or sitters. Fur Butlr lets you create a profile, login in, edit your page, and show off your pets.",
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "MySQL", "Node.js", "Sequelize"]
