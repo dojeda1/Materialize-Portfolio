@@ -91,6 +91,31 @@ $(document).ready(function () {
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "MySQL", "Node.js", "Sequelize"]
     }
 
+        const bugMemory = {
+        title: "Bug Memory",
+        mockup: "./assets/images/trivia-game/trivia-mockup.png",
+        img1: "./assets/images/trivia-game/trivia-start.jpg",
+        img2: "./assets/images/trivia-game/trivia-correct.jpg",
+        img3: "./assets/images/trivia-game/trivia-results.jpg",
+        visit: "https://memory-game-react-click.herokuapp.com/",
+        code: "https://github.com/dojeda1/memory-game",
+        sum: "WIP",
+        list: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", Node.js]
+    }
+
+        const bookFinder = {
+        title: "Book Finder",
+        mockup: "./assets/images/trivia-game/trivia-mockup.png",
+        img1: "./assets/images/trivia-game/trivia-start.jpg",
+        img2: "./assets/images/trivia-game/trivia-correct.jpg",
+        img3: "./assets/images/trivia-game/trivia-results.jpg",
+        visit: "https://github.com/dojeda1/book-search",
+        code: "https://google-books-mern.herokuapp.com/",
+        sum: "WIP",
+        list: ["HTML", "CSS", "JavaScript", "React.js", "MongoDB", "Mongoose", "Google Books API"]
+    }
+    //
+
     //   const placeholder = {
     //       title: "Trivia Game",
     //       mockup: "./assets/images/trivia-game/trivia-mockup.png",
@@ -155,6 +180,14 @@ $(document).ready(function () {
 
             case "furButlr":
                 showProject(furButlr);
+                break;
+
+            case "bugMemory":
+                showProject(bugMemory);
+                break;
+
+            case "bookFinder":
+                showProject(bookFinder);
                 break;
 
         };
