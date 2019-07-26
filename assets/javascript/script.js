@@ -93,10 +93,10 @@ $(document).ready(function () {
 
     const bugMemory = {
         title: "Bug Memory",
-        mockup: "./assets/images/trivia-game/trivia-mockup.png",
-        img1: "./assets/images/trivia-game/trivia-start.jpg",
-        img2: "./assets/images/trivia-game/trivia-correct.jpg",
-        img3: "./assets/images/trivia-game/trivia-results.jpg",
+        mockup: "./assets/images/bug-memory/bug-memory-mockup.png",
+        img1: "./assets/images/bug-memory/bug-memory-win.jpg",
+        img2: "./assets/images/bug-memory/bug-memory-lose.jpg",
+        img3: "./assets/images/bug-memory/bug-memory-cards.jpg",
         visit: "https://memory-game-react-click.herokuapp.com/",
         code: "https://github.com/dojeda1/memory-game",
         sum: "WIP",
