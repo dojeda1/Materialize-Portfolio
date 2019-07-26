@@ -91,7 +91,7 @@ $(document).ready(function () {
         list: ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "MySQL", "Node.js", "Sequelize"]
     }
 
-        const bugMemory = {
+    const bugMemory = {
         title: "Bug Memory",
         mockup: "./assets/images/trivia-game/trivia-mockup.png",
         img1: "./assets/images/trivia-game/trivia-start.jpg",
@@ -103,14 +103,14 @@ $(document).ready(function () {
         list: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", Node.js]
     }
 
-        const bookFinder = {
+    const bookFinder = {
         title: "Book Finder",
         mockup: "./assets/images/trivia-game/trivia-mockup.png",
         img1: "./assets/images/trivia-game/trivia-start.jpg",
         img2: "./assets/images/trivia-game/trivia-correct.jpg",
         img3: "./assets/images/trivia-game/trivia-results.jpg",
-        visit: "https://github.com/dojeda1/book-search",
-        code: "https://google-books-mern.herokuapp.com/",
+        visit: "https://google-books-mern.herokuapp.com/",
+        code: "https://github.com/dojeda1/book-search",
         sum: "WIP",
         list: ["HTML", "CSS", "JavaScript", "React.js", "MongoDB", "Mongoose", "Google Books API"]
     }
@@ -195,6 +195,16 @@ $(document).ready(function () {
     });
 
     // Contact form WIP
+
+    // var textarea = null;
+    // window.addEventListener("load", function () {
+    //     textarea = window.document.querySelector("textarea");
+    //     textarea.addEventListener("onfocusout", function () {
+    //         if (textarea.scrollTop != 0) {
+    //             textarea.style.height = textarea.scrollHeight + "px";
+    //         }
+    //     }, false);
+    // }, false);
 
     // $("#send-btn").on("click", function () {
 

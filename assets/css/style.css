@@ -181,7 +181,7 @@ nav {
     animation: grow .3s;
     animation-iteration-count: 1;
     transform: translate(0px, -5px) scale(1.2);
-    
+
 }
 
 .pad-5 {
@@ -238,13 +238,39 @@ nav {
 }
 
 /* Contact Styles */
-#message {
-    height: 200px;
-    border: 1px solid lightgrey;
-}
 
 .contact-link:hover {
     color: #27aae1 !important;
+}
+
+.input-field textarea {
+    padding: 5px !important;
+}
+
+/* label focus color */
+.input-field input:focus+label {
+    color: #27aae1 !important;
+}
+
+/* label underline focus color */
+.input-field input:focus {
+    border-bottom: 1px solid #27aae1 !important;
+    box-shadow: 0 1px 0 0 #27aae1 !important;
+}
+
+/* label focus color */
+.input-field textarea:focus+label {
+    color: #27aae1 !important;
+}
+
+/* label underline focus color */
+.input-field textarea:focus {
+    border-bottom: 1px solid #27aae1 !important;
+    box-shadow: 0 1px 0 0 #27aae1 !important;
+    min-height: 200px !important;
+
+    animation: extend 1s;
+    animation-iteration-count: 1;
 }
 
 /* Media query changes */
@@ -303,11 +329,31 @@ nav {
 }
 
 @keyframes grow {
-    0%{ transform: translate(0px, 0px) scale(1.0)}
-    100%{ transform: translate(0px, -5px) scale(1.2)}
+    0% {
+        transform: translate(0px, 0px) scale(1.0)
+    }
+
+    100% {
+        transform: translate(0px, -5px) scale(1.2)
+    }
 }
 
 @keyframes rise {
-    0%{ transform: translate(0px, 0px)}
-    100%{ transform: translate(0px, -5px)}
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+    100% {
+        transform: translate(0px, -5px)
+    }
+}
+
+@keyframes extend {
+    0% {
+        height: 10px;
+    }
+
+    100% {
+        min-height: 200px;
+    }
 }
