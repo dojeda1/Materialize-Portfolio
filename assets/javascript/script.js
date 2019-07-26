@@ -196,16 +196,6 @@ $(document).ready(function () {
 
     // Contact form WIP
 
-    // var textarea = null;
-    // window.addEventListener("load", function () {
-    //     textarea = window.document.querySelector("textarea");
-    //     textarea.addEventListener("onfocusout", function () {
-    //         if (textarea.scrollTop != 0) {
-    //             textarea.style.height = textarea.scrollHeight + "px";
-    //         }
-    //     }, false);
-    // }, false);
-
     // $("#send-btn").on("click", function () {
 
     //     var name = $("#name").val();
