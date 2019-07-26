@@ -99,29 +99,29 @@ $(document).ready(function () {
         img3: "./assets/images/bug-memory/bug-memory-cards.jpg",
         visit: "https://memory-game-react-click.herokuapp.com/",
         code: "https://github.com/dojeda1/memory-game",
-        sum: "WIP",
+        sum: "Test your memory by selecting every bug card without choosing the same one twice. Each time one is chosen, the game will shuffle the cards and display them in a random order using REACT. If you select the same bug twice, you lose!",
         list: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", Node.js]
     }
 
     const bookFinder = {
         title: "Book Finder",
-        mockup: "./assets/images/trivia-game/trivia-mockup.png",
-        img1: "./assets/images/trivia-game/trivia-start.jpg",
-        img2: "./assets/images/trivia-game/trivia-correct.jpg",
-        img3: "./assets/images/trivia-game/trivia-results.jpg",
+        mockup: "./assets/images/book-finder/book-finder-mockup.png",
+        img1: "./assets/images/book-finder/book-finder-home.jpg",
+        img2: "./assets/images/book-finder/book-finder-results.jpg",
+        img3: "./assets/images/book-finder/book-finder-saved.jpg",
         visit: "https://google-books-mern.herokuapp.com/",
         code: "https://github.com/dojeda1/book-search",
-        sum: "WIP",
+        sum: "Search through a large database of books with the help of the Google Books API. User inputs the title of a book and results are displayed below. They can then visit the google URL, save the book in a MongoDB database for later, or delete it from saved books.",
         list: ["HTML", "CSS", "JavaScript", "React.js", "MongoDB", "Mongoose", "Google Books API"]
     }
     //
 
     //   const placeholder = {
-    //       title: "Trivia Game",
-    //       mockup: "./assets/images/trivia-game/trivia-mockup.png",
-    //       img1: "./assets/images/trivia-game/trivia-start.jpg",
-    //       img2: "./assets/images/trivia-game/trivia-correct.jpg",
-    //       img3: "./assets/images/trivia-game/trivia-results.jpg",
+    //       title: "App Name",
+    //       mockup: "./assets/images/file-name/file-name-mockup.png",
+    //       img1: "./assets/images/file-name/file-name-1.jpg",
+    //       img2: "./assets/images/file-name/file-name-2.jpg",
+    //       img3: "./assets/images/file-name/file-name-3.jpg",
     //       visit: "https://dojeda1.github.io/Socrates-Game/",
     //       code: "https://github.com/dojeda1/Socrates-Game",
     //       sum: "Cool summary",

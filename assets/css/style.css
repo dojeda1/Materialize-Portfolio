@@ -243,10 +243,6 @@ nav {
     color: #27aae1 !important;
 }
 
-.input-field textarea {
-    padding: 5px !important;
-}
-
 /* label focus color */
 .input-field input:focus+label {
     color: #27aae1 !important;
