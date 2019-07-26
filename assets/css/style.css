@@ -235,7 +235,6 @@ nav {
 }
 
 .tool-pic:hover {
-    width: 50px;
     animation: bulge-out .2s;
     animation-iteration-count: 1;
     transform: scale(1.1);
@@ -245,6 +244,15 @@ nav {
     width: 80px;
     margin-top: 10px;
     margin-bottom: 15px;
+    animation: bulge-in .2s;
+    animation-iteration-count: 1;
+    transform: scale(1.0);
+}
+
+.int-logo:hover {
+    animation: bulge-out .2s;
+    animation-iteration-count: 1;
+    transform: scale(1.1);
 }
 
 /* Contact Styles */
