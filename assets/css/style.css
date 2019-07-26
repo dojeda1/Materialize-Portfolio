@@ -267,7 +267,7 @@ nav {
 .input-field textarea:focus {
     border-bottom: 1px solid #27aae1 !important;
     box-shadow: 0 1px 0 0 #27aae1 !important;
-    min-height: 200px !important;
+    height: 200px !important;
 
     animation: extend 1s;
     animation-iteration-count: 1;
@@ -354,6 +354,6 @@ nav {
     }
 
     100% {
-        min-height: 200px;
+        height: 200px;
     }
 }
