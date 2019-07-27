@@ -195,13 +195,14 @@ $(document).ready(function () {
     });
 
     $(".bulge").on("click", function () {
-        if ($(this).hasClass("rotate")) {
-            $(this).removeClass("rotate");
+        var logo = $(this);
+        if (logo.hasClass("rotate")) {
+            logo.removeClass("rotate");
         } else {
-            $(this).addClass("rotate");
+            logo.addClass("rotate");
             setTimeout(function () {
                 console.log("yo");
-                $(".bulge").removeClass("rotate");
+                logo.removeClass("rotate");
             }, 800);
         }
     })
