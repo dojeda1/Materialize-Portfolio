@@ -229,30 +229,29 @@ nav {
 /* About Styles */
 .tool-pic {
     width: 50px;
-    animation: bulge-in .2s;
-    animation-iteration-count: 1;
-    transform: scale(1.0);
-}
-
-.tool-pic:hover {
-    animation: bulge-out .2s;
-    animation-iteration-count: 1;
-    transform: scale(1.1);
 }
 
 .int-logo {
     width: 80px;
     margin-top: 10px;
     margin-bottom: 15px;
-    animation: bulge-in .2s;
+
+}
+
+.bulge {
+    animation: bulge-in 1s;
     animation-iteration-count: 1;
     transform: scale(1.0);
 }
-
-.int-logo:hover {
-    animation: bulge-out .2s;
+.bulge:hover {
+    animation: bulge-out .001s;
     animation-iteration-count: 1;
     transform: scale(1.1);
+}
+.rotate {
+    animation: rotate .8s !important;
+    animation-iteration-count: 1;
+    /* transform: scale(1.1); */
 }
 
 /* Contact Styles */
@@ -374,7 +373,7 @@ nav {
 
 @keyframes bulge-out {
     0% {
-        transform: scale(1.0)
+        transform: scale(1.1)
     }
 
     100% {
@@ -389,5 +388,16 @@ nav {
 
     100% {
         transform: scale(1.0)
+    }
+}
+
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg) scale(1.1)
+    }
+
+    to {
+        transform: rotate(359deg) scale(1.1)
     }
 }

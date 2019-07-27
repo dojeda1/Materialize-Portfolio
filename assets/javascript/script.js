@@ -194,6 +194,18 @@ $(document).ready(function () {
 
     });
 
+    $(".bulge").on("click", function () {
+        if ($(this).hasClass("rotate")) {
+            $(this).removeClass("rotate");
+        } else {
+            $(this).addClass("rotate");
+            setTimeout(function () {
+                console.log("yo");
+                $(".bulge").removeClass("rotate");
+            }, 800);
+        }
+    })
+
     // Contact form WIP
 
     // $("#send-btn").on("click", function () {
