@@ -141,7 +141,6 @@ $(document).ready(function () {
         $("#p-list").html("");
 
         object.list.forEach(function (entry) {
-            console.log(entry);
             var listItem = $("<li>");
             listItem.text(entry);
             $("#p-list").append(listItem);
@@ -201,9 +200,8 @@ $(document).ready(function () {
         } else {
             logo.addClass("rotate");
             setTimeout(function () {
-                console.log("yo");
                 logo.removeClass("rotate");
-            }, 800);
+            }, 801);
         }
     })
 
