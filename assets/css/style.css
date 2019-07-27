@@ -175,6 +175,8 @@ nav {
     height: 40px;
     margin-left: 25px;
     margin-right: 25px;
+    animation: shrink .3s;
+    animation-iteration-count: 1;
 }
 
 .logo-link:hover {
@@ -348,6 +350,16 @@ nav {
 
     100% {
         transform: translate(0px, -5px) scale(1.2)
+    }
+}
+
+@keyframes shrink {
+    0% {
+        transform: translate(0px, -5px) scale(1.2)
+    }
+
+    100% {
+        transform: translate(0px, 0px) scale(1.0)
     }
 }
 
