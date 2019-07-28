@@ -1,5 +1,15 @@
-# Materialize-Portfolio
+# Book Finder
 
-My Full Stack Web Developer Portfolio.
+### About this Project
 
-VIsit Web App [Here!](https://dojeda1.github.io/Materialize-Portfolio/)
+A Portfolio tdesigned to showcase some of my best projects. Different projects, and links to the code and to the application display when selected. There is a personal summary, a contact form, and links to my Linkedin, Github, and Resume.
+
+  **Visit Web App [Here!](https://dojeda1.github.io/Materialize-Portfolio/)**
+
+### Technologies used
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Materialize
