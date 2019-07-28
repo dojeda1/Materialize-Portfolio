@@ -6,6 +6,8 @@ An online portfolio designed to showcase some of my best projects and skills in 
 
   **Visit Web App [Here!](https://dojeda1.github.io/Materialize-Portfolio/)**
 
+![Web App Image](./demo.png)
+
 ### Technologies used
 
 * HTML
